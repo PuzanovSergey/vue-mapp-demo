@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": ".",
+        "target": "es5",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "scripthost",
+            "es5",
+            "es2017",
+            "es2015",
+            "es2015.promise"
+        ],
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "preserveConstEnums": false,
+        "declaration": false,
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "removeComments": true
+    },
+    "include": [
+        "src/*",
+        "src/**/*.ts",
+        "src/**/*.vue",
+        "./types"
+    ]
+}
